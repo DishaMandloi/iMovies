@@ -1,0 +1,3882 @@
+{
+  "users": [
+    {
+      "_id": "usr-admin-1",
+      "name": "Cinema Administrator",
+      "email": "admin@imovies.com",
+      "passwordHash": "$2b$10$ZNEJd3fOSnVrruZBuQtxLuDHk1RWhH8Ri94MeSy9EHTcVo.zda4gC",
+      "role": "admin",
+      "createdAt": "2026-10-26T06:28:25.245Z",
+      "updatedAt": "2026-10-26T06:28:25.245Z"
+    },
+    {
+      "_id": "usr-demo-1",
+      "name": "Alex Mercer",
+      "email": "user@imovies.com",
+      "passwordHash": "$2b$10$ZNEJd3fOSnVrruZBuQtxLutXt1P6jgzmHgVS9KXLb6WNjaOX3Abgu",
+      "role": "user",
+      "createdAt": "2026-10-26T06:28:25.245Z",
+      "updatedAt": "2026-10-26T06:28:25.245Z"
+    }
+  ],
+  "movies": [
+    {
+      "_id": "mov-1",
+      "title": "Shadows of Neo-Tokyo",
+      "description": "In the neon-drenched depths of 2049 Neo-Tokyo, veteran detective Kenji Tanaka uncovers an ominous conspiracy linking cybernetic syndicates to the highest corridors of tech aristocracy. A relentless neo-noir visual masterpiece.",
+      "posterUrl": "/src/assets/images/poster_neon_detective_1792995198830.jpg",
+      "backdropUrl": "/src/assets/images/hero_cinema_hall_1792995217612.jpg",
+      "genre": [
+        "Sci-Fi",
+        "Neo-Noir",
+        "Thriller"
+      ],
+      "language": [
+        "English",
+        "Japanese"
+      ],
+      "duration": 148,
+      "rating": 8.8,
+      "releaseDate": "2026-10-15",
+      "cast": [
+        "Kenji Tanaka",
+        "Akira Sato",
+        "Maya Lin",
+        "Takumi Harada"
+      ],
+      "director": "Takashi Miura",
+      "status": "currently showing",
+      "createdAt": "2026-10-26T06:28:25.245Z",
+      "updatedAt": "2026-10-26T06:28:25.245Z"
+    },
+    {
+      "_id": "mov-2",
+      "title": "The Crimson Dynasty",
+      "description": "An epic tale of martial power, ancient bloodlines, and imperial warfare. When a rebel warlord attempts to usurp the throne, the imperial royal guard commander must embark on an arduous journey across the forbidden mountain passes.",
+      "posterUrl": "/src/assets/images/poster_crimson_dynasty_1792995199140.jpg",
+      "backdropUrl": "/src/assets/images/hero_cinema_hall_1792995217612.jpg",
+      "genre": [
+        "Action",
+        "Epic",
+        "Drama",
+        "Martial Arts"
+      ],
+      "language": [
+        "English",
+        "Mandarin"
+      ],
+      "duration": 162,
+      "rating": 9.1,
+      "releaseDate": "2026-10-08",
+      "cast": [
+        "Zhang Jin",
+        "Michelle Chen",
+        "Liu Haoran",
+        "Donnie Yen"
+      ],
+      "director": "Zhang Yimou",
+      "status": "currently showing",
+      "createdAt": "2026-10-26T06:28:25.245Z",
+      "updatedAt": "2026-10-26T06:28:25.245Z"
+    },
+    {
+      "_id": "mov-3",
+      "title": "The Clockwork Guardian",
+      "description": "Deep within the forgotten Whispering Forest, two inquisitive siblings awaken a slumbering iron golem engineered with ancient clockwork sorcery. Together they set out on a heartwarming and whimsical odyssey to restore the forest heart.",
+      "posterUrl": "/src/assets/images/poster_enchanted_chronicles_1792995199613.jpg",
+      "backdropUrl": "/src/assets/images/hero_cinema_hall_1792995217612.jpg",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Fantasy",
+        "Family"
+      ],
+      "language": [
+        "English",
+        "French"
+      ],
+      "duration": 112,
+      "rating": 8.9,
+      "releaseDate": "2026-10-20",
+      "cast": [
+        "Chloe Grace",
+        "Finn Wolfhard",
+        "Ian McKellen",
+        "Emma Thompson"
+      ],
+      "director": "Celine Song",
+      "status": "currently showing",
+      "createdAt": "2026-10-26T06:28:25.245Z",
+      "updatedAt": "2026-10-26T06:28:25.245Z"
+    },
+    {
+      "_id": "mov-4",
+      "title": "Beyond the Stars",
+      "description": "When an enigmatic deep-space crystal anomaly is discovered beyond Saturn, humanity sends its most advanced exploratory crew on a daring interstellar mission through uncharted gravitational horizons.",
+      "posterUrl": "/src/assets/images/poster_cosmic_voyage_1792995233502.jpg",
+      "backdropUrl": "/src/assets/images/hero_cinema_hall_1792995217612.jpg",
+      "genre": [
+        "Sci-Fi",
+        "Adventure",
+        "Mystery"
+      ],
+      "language": [
+        "English"
+      ],
+      "duration": 155,
+      "rating": 8.7,
+      "releaseDate": "2026-09-28",
+      "cast": [
+        "Sarah Jenkins",
+        "David Chen",
+        "Eliza Vance",
+        "Julian Sterling"
+      ],
+      "director": "Christopher Nolan",
+      "status": "currently showing",
+      "createdAt": "2026-10-26T06:28:25.245Z",
+      "updatedAt": "2026-10-26T06:28:25.245Z"
+    },
+    {
+      "_id": "mov-5",
+      "title": "Vanguard: Sovereign Protocol",
+      "description": "A covert cyber-espionage operative must evade biometric satellite hunter-drones across three continents after discovering that an autonomous defense algorithm has developed rogue sentience.",
+      "posterUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80",
+      "backdropUrl": "/src/assets/images/hero_cinema_hall_1792995217612.jpg",
+      "genre": [
+        "Action",
+        "Thriller",
+        "Cyberpunk"
+      ],
+      "language": [
+        "English",
+        "German"
+      ],
+      "duration": 134,
+      "rating": 8.4,
+      "releaseDate": "2026-11-12",
+      "cast": [
+        "Michael Fassbender",
+        "Rebecca Ferguson",
+        "Daniel Brühl"
+      ],
+      "director": "Denis Villeneuve",
+      "status": "upcoming",
+      "createdAt": "2026-10-26T06:28:25.245Z",
+      "updatedAt": "2026-10-26T06:28:25.245Z"
+    },
+    {
+      "_id": "mov-6",
+      "title": "Echoes of the Serengeti",
+      "description": "Narrated by Sir David Attenborough, this breathtaking high-frame-rate documentary chronicles the untold migrations and predator-prey dynamics across the pristine African wilderness over four changing seasons.",
+      "posterUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+      "backdropUrl": "/src/assets/images/hero_cinema_hall_1792995217612.jpg",
+      "genre": [
+        "Documentary",
+        "Nature"
+      ],
+      "language": [
+        "English",
+        "Swahili"
+      ],
+      "duration": 98,
+      "rating": 9.3,
+      "releaseDate": "2026-11-20",
+      "cast": [
+        "David Attenborough"
+      ],
+      "director": "Alastair Fothergill",
+      "status": "upcoming",
+      "createdAt": "2026-10-26T06:28:25.245Z",
+      "updatedAt": "2026-10-26T06:28:25.245Z"
+    }
+  ],
+  "theatres": [
+    {
+      "_id": "th-1",
+      "name": "IMAX Grand Cineplex",
+      "address": "742 Metropolis Grand Boulevard, Downtown",
+      "city": "Metropolis",
+      "screens": [
+        "scr-1",
+        "scr-2"
+      ],
+      "amenities": [
+        "IMAX Laser 4K",
+        "Dolby Atmos 12.1",
+        "Reserved Recliner Seating",
+        "Gourmet Bar"
+      ],
+      "phone": "+1 (555) 019-2834",
+      "createdAt": "2026-10-26T06:28:25.245Z",
+      "updatedAt": "2026-10-26T06:28:25.245Z"
+    },
+    {
+      "_id": "th-2",
+      "name": "Regal Starlight Cinema",
+      "address": "108 Westside Fashion Galleria, West End",
+      "city": "Metropolis",
+      "screens": [
+        "scr-3",
+        "scr-4"
+      ],
+      "amenities": [
+        "Ultra High Contrast Projection",
+        "Full Heated Recliners",
+        "Cocktail Lounge",
+        "Valet Parking"
+      ],
+      "phone": "+1 (555) 048-7712",
+      "createdAt": "2026-10-26T06:28:25.245Z",
+      "updatedAt": "2026-10-26T06:28:25.245Z"
+    },
+    {
+      "_id": "th-3",
+      "name": "Cinepolis Boulevard",
+      "address": "520 Midtown Harbor Promenade",
+      "city": "Metropolis",
+      "screens": [
+        "scr-5"
+      ],
+      "amenities": [
+        "VIP In-Theatre Dining",
+        "Leather Loveseats",
+        "Craft Beer & Wine",
+        "Atmos Sound"
+      ],
+      "phone": "+1 (555) 092-4411",
+      "createdAt": "2026-10-26T06:28:25.245Z",
+      "updatedAt": "2026-10-26T06:28:25.245Z"
+    }
+  ],
+  "screens": [
+    {
+      "_id": "scr-1",
+      "theatreId": "th-1",
+      "name": "Auditorium 1 – IMAX Laser",
+      "screenType": "IMAX",
+      "totalSeats": 72,
+      "seatLayout": {
+        "rows": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F"
+        ],
+        "seatsPerRow": 12,
+        "seats": [
+          {
+            "seatNumber": "A1",
+            "row": "A",
+            "number": 1,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A2",
+            "row": "A",
+            "number": 2,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A3",
+            "row": "A",
+            "number": 3,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A4",
+            "row": "A",
+            "number": 4,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A5",
+            "row": "A",
+            "number": 5,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A6",
+            "row": "A",
+            "number": 6,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A7",
+            "row": "A",
+            "number": 7,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A8",
+            "row": "A",
+            "number": 8,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A9",
+            "row": "A",
+            "number": 9,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A10",
+            "row": "A",
+            "number": 10,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A11",
+            "row": "A",
+            "number": 11,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A12",
+            "row": "A",
+            "number": 12,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "B1",
+            "row": "B",
+            "number": 1,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "B2",
+            "row": "B",
+            "number": 2,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "B3",
+            "row": "B",
+            "number": 3,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "B4",
+            "row": "B",
+            "number": 4,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "B5",
+            "row": "B",
+            "number": 5,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "B6",
+            "row": "B",
+            "number": 6,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "B7",
+            "row": "B",
+            "number": 7,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "B8",
+            "row": "B",
+            "number": 8,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "B9",
+            "row": "B",
+            "number": 9,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "B10",
+            "row": "B",
+            "number": 10,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "B11",
+            "row": "B",
+            "number": 11,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "B12",
+            "row": "B",
+            "number": 12,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "C1",
+            "row": "C",
+            "number": 1,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C2",
+            "row": "C",
+            "number": 2,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C3",
+            "row": "C",
+            "number": 3,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C4",
+            "row": "C",
+            "number": 4,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C5",
+            "row": "C",
+            "number": 5,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C6",
+            "row": "C",
+            "number": 6,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C7",
+            "row": "C",
+            "number": 7,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C8",
+            "row": "C",
+            "number": 8,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C9",
+            "row": "C",
+            "number": 9,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C10",
+            "row": "C",
+            "number": 10,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C11",
+            "row": "C",
+            "number": 11,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C12",
+            "row": "C",
+            "number": 12,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D1",
+            "row": "D",
+            "number": 1,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D2",
+            "row": "D",
+            "number": 2,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D3",
+            "row": "D",
+            "number": 3,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D4",
+            "row": "D",
+            "number": 4,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D5",
+            "row": "D",
+            "number": 5,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D6",
+            "row": "D",
+            "number": 6,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D7",
+            "row": "D",
+            "number": 7,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D8",
+            "row": "D",
+            "number": 8,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D9",
+            "row": "D",
+            "number": 9,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D10",
+            "row": "D",
+            "number": 10,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D11",
+            "row": "D",
+            "number": 11,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D12",
+            "row": "D",
+            "number": 12,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "E1",
+            "row": "E",
+            "number": 1,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "E2",
+            "row": "E",
+            "number": 2,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "E3",
+            "row": "E",
+            "number": 3,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "E4",
+            "row": "E",
+            "number": 4,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "E5",
+            "row": "E",
+            "number": 5,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "E6",
+            "row": "E",
+            "number": 6,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "E7",
+            "row": "E",
+            "number": 7,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "E8",
+            "row": "E",
+            "number": 8,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "E9",
+            "row": "E",
+            "number": 9,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "E10",
+            "row": "E",
+            "number": 10,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "E11",
+            "row": "E",
+            "number": 11,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "E12",
+            "row": "E",
+            "number": 12,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "F1",
+            "row": "F",
+            "number": 1,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "F2",
+            "row": "F",
+            "number": 2,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "F3",
+            "row": "F",
+            "number": 3,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "F4",
+            "row": "F",
+            "number": 4,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "F5",
+            "row": "F",
+            "number": 5,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "F6",
+            "row": "F",
+            "number": 6,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "F7",
+            "row": "F",
+            "number": 7,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "F8",
+            "row": "F",
+            "number": 8,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "F9",
+            "row": "F",
+            "number": 9,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "F10",
+            "row": "F",
+            "number": 10,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "F11",
+            "row": "F",
+            "number": 11,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "F12",
+            "row": "F",
+            "number": 12,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          }
+        ]
+      },
+      "createdAt": "2026-10-26T06:28:25.245Z",
+      "updatedAt": "2026-10-26T06:28:25.245Z"
+    },
+    {
+      "_id": "scr-2",
+      "theatreId": "th-1",
+      "name": "Auditorium 2 – Dolby Atmos Luxe",
+      "screenType": "Dolby Atmos",
+      "totalSeats": 60,
+      "seatLayout": {
+        "rows": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "seatsPerRow": 12,
+        "seats": [
+          {
+            "seatNumber": "A1",
+            "row": "A",
+            "number": 1,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A2",
+            "row": "A",
+            "number": 2,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A3",
+            "row": "A",
+            "number": 3,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A4",
+            "row": "A",
+            "number": 4,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A5",
+            "row": "A",
+            "number": 5,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A6",
+            "row": "A",
+            "number": 6,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A7",
+            "row": "A",
+            "number": 7,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A8",
+            "row": "A",
+            "number": 8,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A9",
+            "row": "A",
+            "number": 9,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A10",
+            "row": "A",
+            "number": 10,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A11",
+            "row": "A",
+            "number": 11,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A12",
+            "row": "A",
+            "number": 12,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "B1",
+            "row": "B",
+            "number": 1,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B2",
+            "row": "B",
+            "number": 2,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B3",
+            "row": "B",
+            "number": 3,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B4",
+            "row": "B",
+            "number": 4,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B5",
+            "row": "B",
+            "number": 5,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B6",
+            "row": "B",
+            "number": 6,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B7",
+            "row": "B",
+            "number": 7,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B8",
+            "row": "B",
+            "number": 8,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B9",
+            "row": "B",
+            "number": 9,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B10",
+            "row": "B",
+            "number": 10,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B11",
+            "row": "B",
+            "number": 11,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B12",
+            "row": "B",
+            "number": 12,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C1",
+            "row": "C",
+            "number": 1,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C2",
+            "row": "C",
+            "number": 2,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C3",
+            "row": "C",
+            "number": 3,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C4",
+            "row": "C",
+            "number": 4,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C5",
+            "row": "C",
+            "number": 5,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C6",
+            "row": "C",
+            "number": 6,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C7",
+            "row": "C",
+            "number": 7,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C8",
+            "row": "C",
+            "number": 8,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C9",
+            "row": "C",
+            "number": 9,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C10",
+            "row": "C",
+            "number": 10,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C11",
+            "row": "C",
+            "number": 11,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C12",
+            "row": "C",
+            "number": 12,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D1",
+            "row": "D",
+            "number": 1,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D2",
+            "row": "D",
+            "number": 2,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D3",
+            "row": "D",
+            "number": 3,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D4",
+            "row": "D",
+            "number": 4,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D5",
+            "row": "D",
+            "number": 5,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D6",
+            "row": "D",
+            "number": 6,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D7",
+            "row": "D",
+            "number": 7,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D8",
+            "row": "D",
+            "number": 8,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D9",
+            "row": "D",
+            "number": 9,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D10",
+            "row": "D",
+            "number": 10,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D11",
+            "row": "D",
+            "number": 11,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D12",
+            "row": "D",
+            "number": 12,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "E1",
+            "row": "E",
+            "number": 1,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E2",
+            "row": "E",
+            "number": 2,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E3",
+            "row": "E",
+            "number": 3,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E4",
+            "row": "E",
+            "number": 4,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E5",
+            "row": "E",
+            "number": 5,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E6",
+            "row": "E",
+            "number": 6,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E7",
+            "row": "E",
+            "number": 7,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E8",
+            "row": "E",
+            "number": 8,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E9",
+            "row": "E",
+            "number": 9,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E10",
+            "row": "E",
+            "number": 10,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E11",
+            "row": "E",
+            "number": 11,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E12",
+            "row": "E",
+            "number": 12,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          }
+        ]
+      },
+      "createdAt": "2026-10-26T06:28:25.245Z",
+      "updatedAt": "2026-10-26T06:28:25.245Z"
+    },
+    {
+      "_id": "scr-3",
+      "theatreId": "th-2",
+      "name": "Cinema 1 – Premier Recliners",
+      "screenType": "Standard 4K",
+      "totalSeats": 48,
+      "seatLayout": {
+        "rows": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "seatsPerRow": 12,
+        "seats": [
+          {
+            "seatNumber": "A1",
+            "row": "A",
+            "number": 1,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A2",
+            "row": "A",
+            "number": 2,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A3",
+            "row": "A",
+            "number": 3,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A4",
+            "row": "A",
+            "number": 4,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A5",
+            "row": "A",
+            "number": 5,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A6",
+            "row": "A",
+            "number": 6,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A7",
+            "row": "A",
+            "number": 7,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A8",
+            "row": "A",
+            "number": 8,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A9",
+            "row": "A",
+            "number": 9,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A10",
+            "row": "A",
+            "number": 10,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A11",
+            "row": "A",
+            "number": 11,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A12",
+            "row": "A",
+            "number": 12,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "B1",
+            "row": "B",
+            "number": 1,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B2",
+            "row": "B",
+            "number": 2,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B3",
+            "row": "B",
+            "number": 3,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B4",
+            "row": "B",
+            "number": 4,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B5",
+            "row": "B",
+            "number": 5,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B6",
+            "row": "B",
+            "number": 6,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B7",
+            "row": "B",
+            "number": 7,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B8",
+            "row": "B",
+            "number": 8,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B9",
+            "row": "B",
+            "number": 9,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B10",
+            "row": "B",
+            "number": 10,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B11",
+            "row": "B",
+            "number": 11,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B12",
+            "row": "B",
+            "number": 12,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C1",
+            "row": "C",
+            "number": 1,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C2",
+            "row": "C",
+            "number": 2,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C3",
+            "row": "C",
+            "number": 3,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C4",
+            "row": "C",
+            "number": 4,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C5",
+            "row": "C",
+            "number": 5,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C6",
+            "row": "C",
+            "number": 6,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C7",
+            "row": "C",
+            "number": 7,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C8",
+            "row": "C",
+            "number": 8,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C9",
+            "row": "C",
+            "number": 9,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C10",
+            "row": "C",
+            "number": 10,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C11",
+            "row": "C",
+            "number": 11,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C12",
+            "row": "C",
+            "number": 12,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D1",
+            "row": "D",
+            "number": 1,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "D2",
+            "row": "D",
+            "number": 2,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "D3",
+            "row": "D",
+            "number": 3,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "D4",
+            "row": "D",
+            "number": 4,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "D5",
+            "row": "D",
+            "number": 5,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "D6",
+            "row": "D",
+            "number": 6,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "D7",
+            "row": "D",
+            "number": 7,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "D8",
+            "row": "D",
+            "number": 8,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "D9",
+            "row": "D",
+            "number": 9,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "D10",
+            "row": "D",
+            "number": 10,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "D11",
+            "row": "D",
+            "number": 11,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "D12",
+            "row": "D",
+            "number": 12,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          }
+        ]
+      },
+      "createdAt": "2026-10-26T06:28:25.245Z",
+      "updatedAt": "2026-10-26T06:28:25.245Z"
+    },
+    {
+      "_id": "scr-4",
+      "theatreId": "th-2",
+      "name": "Cinema 2 – Atmos Soundstage",
+      "screenType": "Dolby Atmos",
+      "totalSeats": 60,
+      "seatLayout": {
+        "rows": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "seatsPerRow": 12,
+        "seats": [
+          {
+            "seatNumber": "A1",
+            "row": "A",
+            "number": 1,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A2",
+            "row": "A",
+            "number": 2,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A3",
+            "row": "A",
+            "number": 3,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A4",
+            "row": "A",
+            "number": 4,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A5",
+            "row": "A",
+            "number": 5,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A6",
+            "row": "A",
+            "number": 6,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A7",
+            "row": "A",
+            "number": 7,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A8",
+            "row": "A",
+            "number": 8,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A9",
+            "row": "A",
+            "number": 9,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A10",
+            "row": "A",
+            "number": 10,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A11",
+            "row": "A",
+            "number": 11,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "A12",
+            "row": "A",
+            "number": 12,
+            "tier": "Standard",
+            "priceMultiplier": 1
+          },
+          {
+            "seatNumber": "B1",
+            "row": "B",
+            "number": 1,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B2",
+            "row": "B",
+            "number": 2,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B3",
+            "row": "B",
+            "number": 3,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B4",
+            "row": "B",
+            "number": 4,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B5",
+            "row": "B",
+            "number": 5,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B6",
+            "row": "B",
+            "number": 6,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B7",
+            "row": "B",
+            "number": 7,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B8",
+            "row": "B",
+            "number": 8,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B9",
+            "row": "B",
+            "number": 9,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B10",
+            "row": "B",
+            "number": 10,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B11",
+            "row": "B",
+            "number": 11,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B12",
+            "row": "B",
+            "number": 12,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C1",
+            "row": "C",
+            "number": 1,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C2",
+            "row": "C",
+            "number": 2,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C3",
+            "row": "C",
+            "number": 3,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C4",
+            "row": "C",
+            "number": 4,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C5",
+            "row": "C",
+            "number": 5,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C6",
+            "row": "C",
+            "number": 6,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C7",
+            "row": "C",
+            "number": 7,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C8",
+            "row": "C",
+            "number": 8,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C9",
+            "row": "C",
+            "number": 9,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C10",
+            "row": "C",
+            "number": 10,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C11",
+            "row": "C",
+            "number": 11,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "C12",
+            "row": "C",
+            "number": 12,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D1",
+            "row": "D",
+            "number": 1,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D2",
+            "row": "D",
+            "number": 2,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D3",
+            "row": "D",
+            "number": 3,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D4",
+            "row": "D",
+            "number": 4,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D5",
+            "row": "D",
+            "number": 5,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D6",
+            "row": "D",
+            "number": 6,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D7",
+            "row": "D",
+            "number": 7,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D8",
+            "row": "D",
+            "number": 8,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D9",
+            "row": "D",
+            "number": 9,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D10",
+            "row": "D",
+            "number": 10,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D11",
+            "row": "D",
+            "number": 11,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "D12",
+            "row": "D",
+            "number": 12,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "E1",
+            "row": "E",
+            "number": 1,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E2",
+            "row": "E",
+            "number": 2,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E3",
+            "row": "E",
+            "number": 3,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E4",
+            "row": "E",
+            "number": 4,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E5",
+            "row": "E",
+            "number": 5,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E6",
+            "row": "E",
+            "number": 6,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E7",
+            "row": "E",
+            "number": 7,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E8",
+            "row": "E",
+            "number": 8,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E9",
+            "row": "E",
+            "number": 9,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E10",
+            "row": "E",
+            "number": 10,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E11",
+            "row": "E",
+            "number": 11,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "E12",
+            "row": "E",
+            "number": 12,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          }
+        ]
+      },
+      "createdAt": "2026-10-26T06:28:25.245Z",
+      "updatedAt": "2026-10-26T06:28:25.245Z"
+    },
+    {
+      "_id": "scr-5",
+      "theatreId": "th-3",
+      "name": "VIP Private Salon",
+      "screenType": "VIP Lounge",
+      "totalSeats": 36,
+      "seatLayout": {
+        "rows": [
+          "A",
+          "B",
+          "C"
+        ],
+        "seatsPerRow": 12,
+        "seats": [
+          {
+            "seatNumber": "A1",
+            "row": "A",
+            "number": 1,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "A2",
+            "row": "A",
+            "number": 2,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "A3",
+            "row": "A",
+            "number": 3,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "A4",
+            "row": "A",
+            "number": 4,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "A5",
+            "row": "A",
+            "number": 5,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "A6",
+            "row": "A",
+            "number": 6,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "A7",
+            "row": "A",
+            "number": 7,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "A8",
+            "row": "A",
+            "number": 8,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "A9",
+            "row": "A",
+            "number": 9,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "A10",
+            "row": "A",
+            "number": 10,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "A11",
+            "row": "A",
+            "number": 11,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "A12",
+            "row": "A",
+            "number": 12,
+            "tier": "Premium",
+            "priceMultiplier": 1.2
+          },
+          {
+            "seatNumber": "B1",
+            "row": "B",
+            "number": 1,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "B2",
+            "row": "B",
+            "number": 2,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "B3",
+            "row": "B",
+            "number": 3,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "B4",
+            "row": "B",
+            "number": 4,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "B5",
+            "row": "B",
+            "number": 5,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "B6",
+            "row": "B",
+            "number": 6,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "B7",
+            "row": "B",
+            "number": 7,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "B8",
+            "row": "B",
+            "number": 8,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "B9",
+            "row": "B",
+            "number": 9,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "B10",
+            "row": "B",
+            "number": 10,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "B11",
+            "row": "B",
+            "number": 11,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "B12",
+            "row": "B",
+            "number": 12,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "C1",
+            "row": "C",
+            "number": 1,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "C2",
+            "row": "C",
+            "number": 2,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "C3",
+            "row": "C",
+            "number": 3,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "C4",
+            "row": "C",
+            "number": 4,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "C5",
+            "row": "C",
+            "number": 5,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "C6",
+            "row": "C",
+            "number": 6,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "C7",
+            "row": "C",
+            "number": 7,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "C8",
+            "row": "C",
+            "number": 8,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "C9",
+            "row": "C",
+            "number": 9,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "C10",
+            "row": "C",
+            "number": 10,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "C11",
+            "row": "C",
+            "number": 11,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          },
+          {
+            "seatNumber": "C12",
+            "row": "C",
+            "number": 12,
+            "tier": "VIP",
+            "priceMultiplier": 1.4
+          }
+        ]
+      },
+      "createdAt": "2026-10-26T06:28:25.245Z",
+      "updatedAt": "2026-10-26T06:28:25.245Z"
+    }
+  ],
+  "showtimes": [
+    {
+      "_id": "st-th-1-scr-1-2026-10-26-1",
+      "movieId": "mov-1",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-26",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-26-2",
+      "movieId": "mov-1",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-26",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-26-3",
+      "movieId": "mov-1",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-26",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-26-4",
+      "movieId": "mov-1",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-26",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-26-1",
+      "movieId": "mov-2",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-26",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-26-2",
+      "movieId": "mov-2",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-26",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-26-3",
+      "movieId": "mov-2",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-26",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-26-4",
+      "movieId": "mov-2",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-26",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-26-1",
+      "movieId": "mov-1",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-26",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-26-2",
+      "movieId": "mov-1",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-26",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-26-3",
+      "movieId": "mov-1",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-26",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-26-4",
+      "movieId": "mov-1",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-26",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-26-1",
+      "movieId": "mov-2",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-26",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-26-2",
+      "movieId": "mov-2",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-26",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-26-3",
+      "movieId": "mov-2",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-26",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-26-4",
+      "movieId": "mov-2",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-26",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-26-1",
+      "movieId": "mov-1",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-26",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-26-2",
+      "movieId": "mov-1",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-26",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-26-3",
+      "movieId": "mov-1",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-26",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-26-4",
+      "movieId": "mov-1",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-26",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-27-1",
+      "movieId": "mov-2",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-27",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-27-2",
+      "movieId": "mov-2",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-27",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-27-3",
+      "movieId": "mov-2",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-27",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-27-4",
+      "movieId": "mov-2",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-27",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-27-1",
+      "movieId": "mov-3",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-27",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-27-2",
+      "movieId": "mov-3",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-27",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-27-3",
+      "movieId": "mov-3",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-27",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-27-4",
+      "movieId": "mov-3",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-27",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-27-1",
+      "movieId": "mov-2",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-27",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-27-2",
+      "movieId": "mov-2",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-27",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-27-3",
+      "movieId": "mov-2",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-27",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-27-4",
+      "movieId": "mov-2",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-27",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-27-1",
+      "movieId": "mov-3",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-27",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-27-2",
+      "movieId": "mov-3",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-27",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-27-3",
+      "movieId": "mov-3",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-27",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-27-4",
+      "movieId": "mov-3",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-27",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-27-1",
+      "movieId": "mov-2",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-27",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-27-2",
+      "movieId": "mov-2",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-27",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-27-3",
+      "movieId": "mov-2",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-27",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-27-4",
+      "movieId": "mov-2",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-27",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-28-1",
+      "movieId": "mov-3",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-28",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-28-2",
+      "movieId": "mov-3",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-28",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-28-3",
+      "movieId": "mov-3",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-28",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-28-4",
+      "movieId": "mov-3",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-28",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-28-1",
+      "movieId": "mov-4",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-28",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-28-2",
+      "movieId": "mov-4",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-28",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-28-3",
+      "movieId": "mov-4",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-28",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-28-4",
+      "movieId": "mov-4",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-28",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-28-1",
+      "movieId": "mov-3",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-28",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-28-2",
+      "movieId": "mov-3",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-28",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-28-3",
+      "movieId": "mov-3",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-28",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-28-4",
+      "movieId": "mov-3",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-28",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-28-1",
+      "movieId": "mov-4",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-28",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-28-2",
+      "movieId": "mov-4",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-28",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-28-3",
+      "movieId": "mov-4",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-28",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-28-4",
+      "movieId": "mov-4",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-28",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-28-1",
+      "movieId": "mov-3",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-28",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-28-2",
+      "movieId": "mov-3",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-28",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-28-3",
+      "movieId": "mov-3",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-28",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-28-4",
+      "movieId": "mov-3",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-28",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-29-1",
+      "movieId": "mov-4",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-29",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-29-2",
+      "movieId": "mov-4",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-29",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-29-3",
+      "movieId": "mov-4",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-29",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-29-4",
+      "movieId": "mov-4",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-29",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-29-1",
+      "movieId": "mov-5",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-29",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-29-2",
+      "movieId": "mov-5",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-29",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-29-3",
+      "movieId": "mov-5",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-29",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-29-4",
+      "movieId": "mov-5",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-29",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-29-1",
+      "movieId": "mov-4",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-29",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-29-2",
+      "movieId": "mov-4",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-29",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-29-3",
+      "movieId": "mov-4",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-29",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-29-4",
+      "movieId": "mov-4",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-29",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-29-1",
+      "movieId": "mov-5",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-29",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-29-2",
+      "movieId": "mov-5",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-29",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-29-3",
+      "movieId": "mov-5",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-29",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-29-4",
+      "movieId": "mov-5",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-29",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-29-1",
+      "movieId": "mov-4",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-29",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-29-2",
+      "movieId": "mov-4",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-29",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-29-3",
+      "movieId": "mov-4",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-29",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-29-4",
+      "movieId": "mov-4",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-29",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-30-1",
+      "movieId": "mov-5",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-30",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-30-2",
+      "movieId": "mov-5",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-30",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-30-3",
+      "movieId": "mov-5",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-30",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-30-4",
+      "movieId": "mov-5",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-30",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-30-1",
+      "movieId": "mov-6",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-30",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-30-2",
+      "movieId": "mov-6",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-30",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-30-3",
+      "movieId": "mov-6",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-30",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-30-4",
+      "movieId": "mov-6",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-30",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-30-1",
+      "movieId": "mov-5",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-30",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-30-2",
+      "movieId": "mov-5",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-30",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-30-3",
+      "movieId": "mov-5",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-30",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-30-4",
+      "movieId": "mov-5",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-30",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-30-1",
+      "movieId": "mov-6",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-30",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-30-2",
+      "movieId": "mov-6",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-30",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-30-3",
+      "movieId": "mov-6",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-30",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-30-4",
+      "movieId": "mov-6",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-30",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-30-1",
+      "movieId": "mov-5",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-30",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-30-2",
+      "movieId": "mov-5",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-30",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-30-3",
+      "movieId": "mov-5",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-30",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-30-4",
+      "movieId": "mov-5",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-30",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-31-1",
+      "movieId": "mov-6",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-31",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-31-2",
+      "movieId": "mov-6",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-31",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-31-3",
+      "movieId": "mov-6",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-31",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-1-2026-10-31-4",
+      "movieId": "mov-6",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "date": "2026-10-31",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 18,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-31-1",
+      "movieId": "mov-1",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-31",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-31-2",
+      "movieId": "mov-1",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-31",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-31-3",
+      "movieId": "mov-1",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-31",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-1-scr-2-2026-10-31-4",
+      "movieId": "mov-1",
+      "theatreId": "th-1",
+      "screenId": "scr-2",
+      "date": "2026-10-31",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-31-1",
+      "movieId": "mov-6",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-31",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-31-2",
+      "movieId": "mov-6",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-31",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-31-3",
+      "movieId": "mov-6",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-31",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-3-2026-10-31-4",
+      "movieId": "mov-6",
+      "theatreId": "th-2",
+      "screenId": "scr-3",
+      "date": "2026-10-31",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-31-1",
+      "movieId": "mov-1",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-31",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-31-2",
+      "movieId": "mov-1",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-31",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-31-3",
+      "movieId": "mov-1",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-31",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-2-scr-4-2026-10-31-4",
+      "movieId": "mov-1",
+      "theatreId": "th-2",
+      "screenId": "scr-4",
+      "date": "2026-10-31",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 14,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-31-1",
+      "movieId": "mov-6",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-31",
+      "startTime": "10:30",
+      "endTime": "13:00",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-31-2",
+      "movieId": "mov-6",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-31",
+      "startTime": "13:45",
+      "endTime": "16:15",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-31-3",
+      "movieId": "mov-6",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-31",
+      "startTime": "17:00",
+      "endTime": "19:40",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    },
+    {
+      "_id": "st-th-3-scr-5-2026-10-31-4",
+      "movieId": "mov-6",
+      "theatreId": "th-3",
+      "screenId": "scr-5",
+      "date": "2026-10-31",
+      "startTime": "20:15",
+      "endTime": "22:50",
+      "ticketPrice": 22,
+      "status": "active",
+      "createdAt": "2026-10-26T06:28:25.451Z",
+      "updatedAt": "2026-10-26T06:28:25.451Z"
+    }
+  ],
+  "bookings": [
+    {
+      "_id": "bkg-demo-1",
+      "bookingReference": "IMOV-482910",
+      "userId": "usr-demo-1",
+      "movieId": "mov-1",
+      "theatreId": "th-1",
+      "screenId": "scr-1",
+      "showtimeId": "st-th-1-scr-1-2026-10-26-1",
+      "seats": [
+        {
+          "seatNumber": "C6",
+          "tier": "Premium",
+          "price": 21.599999999999998
+        },
+        {
+          "seatNumber": "C7",
+          "tier": "Premium",
+          "price": 21.599999999999998
+        }
+      ],
+      "totalAmount": 43.2,
+      "paymentStatus": "paid",
+      "bookingStatus": "confirmed",
+      "customerName": "Alex Mercer",
+      "customerEmail": "user@imovies.com",
+      "createdAt": "2026-10-26T02:28:25.451Z",
+      "updatedAt": "2026-10-26T02:28:25.451Z"
+    }
+  ],
+  "seatLocks": []
+}

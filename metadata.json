@@ -1,0 +1,6 @@
+{
+  "name": "IMovies – Online Movie Ticket Booking Platform",
+  "description": "A modern cinema ticket booking platform to browse movies, explore theatres and showtimes, select seats with real-time locks, and manage reservations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
